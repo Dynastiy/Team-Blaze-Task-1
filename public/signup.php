@@ -34,11 +34,11 @@ $result=insertUser($user);
       <div class="col-md-6">
           <div class='col-sm login'>
               <div class='login-form'>
-                <h3 class='header'>SIGNUP</h3>
+                <h3 class='header' style= "color:white" >SIGNUP</h3>
                 <br />
                 <div class='login-text'>
-                  <h3>Welcome!</h3>
-                   <p>Signup by entering the the information below</p>
+                  <h3 style= "color:white">Welcome!</h3>
+                   <p style= "color:white">Signup by entering the the information below</p>
                 </div>
                 <?php if($errors){?>
                    
@@ -48,32 +48,32 @@ $result=insertUser($user);
                
                 <form action="signup.php" method="POST">
                   <div class="form-group">
-                    <label for="email">Email address:</label>
+                    <label for="email" style= "color:white">Email address:</label>
                     <div class='form-field'>
                       <input type="email" class="form-control" id="email" 
                       placeholder="teablaze@gmail.com" name="email" required>
                     </div>
                   </div>
                   <div class="form-group">
-                    <label for="password">Password:</label>
+                    <label for="password" style= "color:white">Password:</label>
                     <div class='form-field'>
                        <input type="password" class="form-control" id="password"required name="password"
                        placeholder="Password">
                     </div>
                   </div>
                   <div class="form-group">
-                    <label for="password">Confirm Password:</label>
+                    <label for="password" style= "color:white">Confirm Password:</label>
                     <div class='form-field'>
                        <input type="password" name="confirm_password" class="form-control"required id="password" placeholder="Confirm_Password">
                     </div>
                   </div>
                   <button class="btn btn-primary button" type="submit"
-      role="button">SignUp</button>
+      role="button" style= "color:white">SignUp</button>
                   <br/>
                     <div class='button-pair'>
-<h6>Already SignUp? Click here</h6>
+<h6 style= "color:white">Already SignUp? Click here</h6>
       <a class="btn btn-primary button" href="login.php"
-      role="button">Login</a>
+      role="button" style= "color:white">Login</a>
                      
                     </div>
                 </form>

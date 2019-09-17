@@ -17,12 +17,12 @@ require_login();
   </head>
 <body>
     <div class="btn btn-success">
-        <h1>CONGRATULATIONS YOU HAVE NOW LOGGED IN</h1>
+        <h1 style= "color:white">CONGRATULATIONS YOU HAVE NOW LOGGED IN</h1>
     </div>
     
-    <h6>Dry Page? Click here to logout</h6>
+    <h6 style= "color:white">Dry Page? Click here to logout</h6>
       <a class="btn btn-danger button" href="logout.php"
-      role="button">logout</a>
+      role="button" style= "color:white">logout</a>
 
 </body>
 </html>
