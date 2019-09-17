@@ -55,17 +55,18 @@ if(is_post_request()) {
     <link rel="stylesheet" href="./index.css">
     <title>HNG Internship 6.0</title>
   </head>
-  <body>
-    <div class="row">
+  <body >
+    <div class="row" )
+>
       <div class="col-md-3"></div>
       <div class="col-md-6">
           <div class='col-sm login'>
               <div class='login-form'>
-                <h3 class='header'>Login</h3>
+                <h3 class='header' style= "color:white">Login</h3>
                 <br />
                 <div class='login-text'>
-                  <h3>Welcome!</h3>
-                   <p>Sign in by entering the the information below</p>
+                  <h3 style= "color:white">Welcome!</h3>
+                   <p style= "color:white">Sign in by entering the the information below</p>
                 </div>
                 <?php if($errors){?>
                    
@@ -74,14 +75,14 @@ if(is_post_request()) {
                   <?php } ?>
                 <form action="login.php" method="POST">
                   <div class="form-group">
-                    <label for="email">Email address:</label>
+                    <label for="email" style= "color:white": >Email address:</label>
                     <div class='form-field'>
                       <input type="email" class="form-control" id="email"
                        placeholder="kelvinkent@gmail.com" name="email">
                     </div>
                   </div>
                   <div class="form-group">
-                    <label for="password">Password:</label>
+                    <label for="password" style= "color:white">Password:</label>
                     <div class='form-field'>
                        <input type="password" class="form-control" id="password"name='password'
                         placeholder="Password">
@@ -89,12 +90,12 @@ if(is_post_request()) {
                   </div>
                   <br/>
                     <div class='button-pair'>
-                      <button class="btn btn-primary button" type="submit" role="button">Login</button>
+                      <button class="btn btn-primary button" type="submit" role="button" style= "color:white">Login</button>
                     </div>
                     <br>
-                    <h6>Not Registered? Click here</h6>
+                    <h6 style= "color:white">Not Registered? Click here</h6>
       <a class="btn btn-primary button" href="signup.php"
-      role="button">Signup</a>
+      role="button" style= "color:white">Signup</a>
                 </form>
               </div>
             </div>
