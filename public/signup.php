@@ -51,7 +51,7 @@ $result=insertUser($user);
                     <label for="email">Email address:</label>
                     <div class='form-field'>
                       <input type="email" class="form-control" id="email" 
-                      placeholder="kelvinkent@gmail.com" name="email" required>
+                      placeholder="teablaze@gmail.com" name="email" required>
                     </div>
                   </div>
                   <div class="form-group">
